@@ -1,0 +1,71 @@
+.brand {
+  top: 40%;
+}
+
+.brand a img {
+  width: 214px;
+  height: auto;
+}
+
+.menu a img {
+  width: 145px;
+  height: auto;
+}
+
+.main {
+  background: #002350; /* Old browsers */
+  background: -moz-linear-gradient(top,  #002350 32%, #003782 84%, #4a96ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #002350 32%,#003782 84%,#4a96ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #002350 32%,#003782 84%,#4a96ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002350', endColorstr='#4a96ff',GradientType=0 ); /* IE6-9 */
+}
+
+.copyright {
+  text-align: center;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #fff;
+  font-weight: normal;
+  margin: 1.5em 0;
+}
+
+/* 記事タイトルと見出し */
+.post-content h1, .post-content h2, .page-header {
+  background-image: url(../img/border-star-horizontal.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 15px;
+  margin-bottom: 1em;
+}
+
+.post-content h2,
+.post-content h3 {
+  margin-top: 1.5em;
+}
+
+.post-content h3 {
+  font-size: 100%;
+  color: #a0c8ff;
+}
+
+.post-content p {
+  line-height: 1.8;
+}
+
+.post-content .photo {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.post-content .photo small {
+  display: block;
+  margin-top: 10px;
+}
+
+/* 記事ページ内の hero 画像 */
+.hero-1 { background-image: url(../img/1a.jpg); }
+.hero-2 { background-image: url(../img/2a.jpg); }
+.hero-3 { background-image: url(../img/3a.jpg); }

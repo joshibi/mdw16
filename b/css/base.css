@@ -1,0 +1,222 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,700';
+
+body {
+  min-width: 1000px;
+  overflow-x: hidden;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.main {
+  background: #222;
+  color: #fff;
+  padding: 40px 0 80px;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  min-height: 230px;
+  background: url(../img/0.jpg) no-repeat 50% 50% / cover;
+  mask: url(../img/mask.svg) no-repeat 50% 100% / cover;
+  -webkit-mask: url(../img/mask.svg) no-repeat 50% 100% / cover;
+  /* quick-aid */
+  width: calc(100% + 6px);
+  left: -3px;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header + * {
+  position: relative;
+  z-index: 1;
+  margin-top: -80px;
+  padding: 120px 0 80px;
+}
+
+h1 small {
+  display: block;
+}
+
+.brand {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 23px; /* quick-aid */
+  transform: translateY(-50%);
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  right: 23px; /* quick-aid */
+  transform: translateY(-50%);
+}
+
+.footer {
+  padding: 20px;
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.container-wide {
+  max-width: 960px;
+}
+
+.container-narrow {
+  max-width: 640px;
+}
+
+.copyright {
+  margin: 0;
+  font-size: small;
+}
+
+.interview-content {
+  overflow: hidden;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.interview-panel {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.interview-panel:nth-child(odd) {
+  background: url(../img/border-star-corner.png) no-repeat 100% 100%;
+}
+
+.interview-panel:nth-child(even) {
+  background: url(../img/border-star-corner-inversed.png) no-repeat 0 100%;
+}
+
+.panel-image {
+  width: 400px;
+}
+
+.interview-panel:nth-child(odd) .panel-image { float: left; }
+.interview-panel:nth-child(odd) .panel-body { margin-left: 400px; }
+.interview-panel:nth-child(even) .panel-image { float: right; }
+.interview-panel:nth-child(even) .panel-body { margin-right: 400px; }
+
+.panel-body {
+  padding: 0 40px 30px;
+}
+
+.interview-item {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: calc(50% - 20px);
+}
+
+.item-body h3 {
+  font-size: 100%;
+}
+
+.item-body h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item-body h3 small {
+  display: block;
+}
+
+.lead {
+  font-weight: bold;
+  color: #999;
+}
+
+.hero {
+  position: relative;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 240px;
+}
+
+.hero small {
+  display: block;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  margin: 0;
+}
+
+.interviewer, .others {
+  margin-top: 80px;
+}
+
+.box {
+  overflow: hidden;
+}
+
+.box-body {
+  padding: 20px;
+  background: rgba(0,35,80,.8);
+}
+
+.box-body h4 {
+  margin: 0 0 .5em;
+}
+
+.box-body p {
+  font-size: 12px;
+}
+
+.box-body p:last-child {
+  margin: 0;
+}
+
+.panel-image, .item-image {
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+  background: #fff;
+  color: #002350;
+  border: 1px solid transparent;
+  padding: .5em 5em;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.button:hover {
+  border-color: #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.well {
+  margin: 2em 0;
+  padding: 0 1em;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,67 @@
+.header {
+  background-image: url(../img/bg-header.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.brand a img {
+  width: 386px;
+  height: auto;
+}
+
+body {
+  background-color: #fff;
+}
+
+.hero .content {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+  font-weight: normal;
+  margin: 1.5em 0;
+}
+
+.post-content h2,
+.post-content h3 {
+  margin-top: 1.5em;
+}
+
+.post-content h2 {
+  font-weight: normal;
+  border-left: 5px solid #999;
+  padding-left: 10px;
+}
+
+.post-content h3 {
+  font-size: 100%;
+}
+
+.post-content p {
+  line-height: 1.8;
+}
+
+.post-content .photo {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.post-content .photo small {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.panel-body {
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* 記事ページ内の hero 画像 */
+.hero-1 { background-image: url(../img/1a.jpg); }
+.hero-2 { background-image: url(../img/2a.jpg); }
+.hero-3 { background-image: url(../img/3a.jpg); }
+.hero-4 { background-image: url(../img/4a.jpg); }
